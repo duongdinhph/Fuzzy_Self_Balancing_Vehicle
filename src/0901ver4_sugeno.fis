@@ -1,0 +1,51 @@
+[System]
+Name='0901ver4_sugeno'
+Type='sugeno'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=9
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='e'
+Range=[-1.5 1.5]
+NumMFs=3
+MF1='N':'trimf',[-150 -1.5 0]
+MF2='ZE':'trimf',[-1.5 0 1.5]
+MF3='P':'trimf',[0 1.5 150]
+
+[Input2]
+Name='e_d'
+Range=[-6.8 6.8]
+NumMFs=3
+MF1='N':'trimf',[-100 -6.8 0]
+MF2='ZE':'trimf',[-6.8 0 6.8]
+MF3='P':'trimf',[0 6.8 100]
+
+[Output1]
+Name='output1'
+Range=[-3 3]
+NumMFs=7
+MF1='NB':'constant',[-3]
+MF2='NM':'constant',[-2]
+MF3='NS':'constant',[-1]
+MF4='ZE':'constant',[0]
+MF5='PS':'constant',[1]
+MF6='PM':'constant',[2]
+MF7='PB':'constant',[3]
+
+[Rules]
+1 1, 1 (1) : 1
+1 2, 2 (1) : 1
+1 3, 3 (1) : 1
+2 1, 3 (1) : 1
+2 2, 4 (1) : 1
+2 3, 5 (1) : 1
+3 1, 5 (1) : 1
+3 2, 6 (1) : 1
+3 3, 7 (1) : 1
