@@ -49,6 +49,7 @@ For Psi:
 
 # Implement on a real TWSBV
 The results are comparable to the simulation.
+
 For x:
 
 ![image](https://github.com/duongdinhph/Fuzzy_Self_Balancing_Vehicle/assets/56771011/8b77bd63-ac28-4cdb-98d4-d72fd42b2992)
