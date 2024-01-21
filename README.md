@@ -1,5 +1,5 @@
 # Fuzzy_Self_Balancing_Vehicle
-Implement Sugeno and Mamdani Fuzzy Rules for Adaptive Controller on a Two-wheels Self-balancing Vehicle (TWSBV)
+Implement Sugeno Fuzzy Rules for Adaptive Controller on a Two-wheels Self-balancing Rotobt (TWSR)
 # Identifying Linear Model
 ## Simulation
 
@@ -47,7 +47,7 @@ For Psi:
 ![image](https://github.com/duongdinhph/Fuzzy_Self_Balancing_Vehicle/assets/56771011/c23ec582-af23-4ee6-9cc5-d12d45c0f9a0)
 
 
-# Implement on a real TWSBV
+# Implement on a real TWSR
 The results are comparable to the simulation.
 
 For x:
