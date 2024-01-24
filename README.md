@@ -1,5 +1,5 @@
 # Fuzzy Control for Two-wheeled Self-balancing Robot
-Implement Sugeno Fuzzy Rules for Adaptive Controller on a Two-wheels Self-balancing Rotobt (TWSR)   
+Implement Sugeno Fuzzy Rules for Adaptive Controller on a Two-wheels Self-balancing Robot (TWSR)   
 Full report: [link](https://drive.google.com/drive/folders/1V_0mekXLBJMhX4PxRmI9SYFVPbN-FOUS)
 # Identifying Linear Model
 ## Simulation
